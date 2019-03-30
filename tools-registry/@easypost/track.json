@@ -1,0 +1,20 @@
+{
+  "@context": "https://animus.dev/schema",
+  "@type": "Shipping#Track",
+  "name": "track",
+  "requestFormat": {
+    "trackingNumber": "Shipment#TrackingNumber"
+  },
+  "responseFormat": {
+    "status": "Shipment#Status",
+    "carrier": "Shipment#Carrier",
+    "url": "Shipment#TrackingPage"
+  },
+  "tools": {
+    "encodeBase64": "@animus/encode-base64",
+    "httpPost": "@animus/http-post"
+  },
+  "state": {
+    "account": "@easypost.account"
+  }
+}
