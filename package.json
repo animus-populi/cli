@@ -2,7 +2,7 @@
   "name": "cli",
   "version": "1.0.0",
   "description": "",
-  "main": "engine.js",
+  "main": "animus.mjs",
   "scripts": {
     "start": "node --experimental-modules animus.mjs",
     "test": "node --experimental-modules without-animus.mjs"
